@@ -43,6 +43,7 @@
   border: 0;
   padding: 10px 20px;
   cursor: pointer;
+  font-size: 14px;
 
   &:hover {
     background: darken($color: (#4DD599), $amount: 6%)
@@ -51,6 +52,24 @@
   &:active {
     background: darken($color: (#4DD599), $amount: 10%)
   }
+
+  &:disabled {
+    background: #d8d8d8;
+  }
+
+  &--grey {
+    background: #f4f6f8;
+    color: #444444;
+
+    &:hover {
+      background: darken($color: (#f4f6f8), $amount: 3%)
+    }
+
+    &:active {
+      background: darken($color: (#f4f6f8), $amount: 6%)
+    }
+  }
+
 }
 
 
@@ -61,6 +80,7 @@
   border-radius: 4px;
   padding: 8px 12px;
   width: 100%;
+  font-size: 14px;
 
   &:focus {
     border-color: #dbdbdb;

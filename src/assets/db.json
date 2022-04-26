@@ -2,7 +2,7 @@
   "lists": [
     {
       "id": 1,
-      "name": "Покупки",
+      "name": "Продажи",
       "colorId": 5
     },
     {
@@ -24,11 +24,6 @@
       "id": 5,
       "name": "Личное",
       "colorId": 1
-    },
-    {
-      "name": "Спорт",
-      "colorId": 3,
-      "id": 6
     }
   ],
   "tasks": [
@@ -85,6 +80,24 @@
       "text": "Купить 1984!",
       "completed": true,
       "id": 10
+    },
+    {
+      "listId": 1,
+      "text": "rfs",
+      "completed": false,
+      "id": 11
+    },
+    {
+      "listId": 5,
+      "text": "fdssd",
+      "completed": false,
+      "id": 12
+    },
+    {
+      "listId": 1,
+      "text": "fdsgds",
+      "completed": false,
+      "id": 13
     }
   ],
   "colors": [
